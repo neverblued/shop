@@ -4,4 +4,5 @@
 
 (defpackage #:shop
   (:use #:cl #:bj #:alexandria #:iterate #:postmodern)
-  (:export #:cart-id))
+  (:export #:cart-id
+           #:id-product))

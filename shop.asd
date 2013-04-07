@@ -12,12 +12,13 @@
   :version "0.1"
   :author "Дмитрий Пинский <demetrius@neverblued.info>"
   :licence "LLGPL"
-  :depends-on (#:cl-cron #:wsf-cleepz #:wsf-pg)
+  :depends-on (#:submarine)
   :serial t
   :components ((:file "package")
                (:file "condition")
                (:file "layout")
                (:file "property")
+               (:file "data")
                (:file "price")
                (:file "cart")
                (:file "misc")))
