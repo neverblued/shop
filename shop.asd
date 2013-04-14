@@ -9,7 +9,7 @@
 
 (defsystem "shop"
   :description "Shopping system"
-  :version "0.1"
+  :version "0.2"
   :author "Дмитрий Пинский <demetrius@neverblued.info>"
   :licence "LLGPL"
   :depends-on (#:submarine)
@@ -21,4 +21,5 @@
                (:file "data")
                (:file "price")
                (:file "cart")
-               (:file "misc")))
+               (:file "misc")
+               (:file "test")))
