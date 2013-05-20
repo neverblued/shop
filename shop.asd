@@ -12,7 +12,7 @@
   :version "0.2"
   :author "Дмитрий Пинский <demetrius@neverblued.info>"
   :licence "LLGPL"
-  :depends-on (#:submarine)
+  :depends-on (#:submarine #:blackjack)
   :serial t
   :components ((:file "package")
                (:file "condition")

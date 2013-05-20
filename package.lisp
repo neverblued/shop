@@ -3,6 +3,6 @@
 ;; LLGPL -> http://opensource.franz.com/preamble.html
 
 (defpackage #:shop
-  (:use #:cl #:bj #:alexandria #:iterate #:postmodern)
+  (:use #:cl #:blackjack #:alexandria #:iterate #:postmodern)
   (:export #:cart-id
            #:id-product))
